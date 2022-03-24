@@ -17,18 +17,18 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="dataCheck.php" method="post">
         Name: <input type="text" name="name" /> <br> <br>
         Email: <input type="text" name="email" /> <br> <br>
-        <select name="gender" id="">
+        <!-- <select name="gender" id="">
             <option value="">Select Gender</option>
             <option value="male">Male</option>
             <option value="Female">Female</option>
         </select>
-        <br> <br>
+        <br> <br> -->
         Gender: <br>
-        <input type="radio" name="gender2" value="male" id=""> Male <br>
-        <input type="radio" name="gender2" value="female"> Female <br>
+        <input type="radio" name="gender" value="male" id=""> Male <br>
+        <input type="radio" name="gender" value="female"> Female <br>
         <input type="submit" value="Submit">
     </form>
 </body>
