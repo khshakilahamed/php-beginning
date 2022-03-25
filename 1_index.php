@@ -17,7 +17,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="dataCheck.php" method="post">
+    <form action="1_dataCheck.php" method="post">
         Name: <input type="text" name="name" /> <br> <br>
         Email: <input type="text" name="email" /> <br> <br>
         <!-- <select name="gender" id="">
