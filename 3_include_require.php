@@ -3,4 +3,7 @@
     include "2_date.php";
     echo "<br> <br>";
     require "2_date.php";
+
+    session_start();
+    echo $_SESSION['var'];
 ?>
